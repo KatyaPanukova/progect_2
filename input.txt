@@ -1,0 +1,36 @@
+Economic faculty,Business-Informatics,Cybernetics,Management,Sociology,Jurisprudence
+Business-Informatics
+Monday,probability theory,FC
+Tuesday,mathematical analysis,business basics,mathematical analysis
+Wednesday,english,programming,microeconomics,fundamentals of law
+Thursday,microeconomics,mathematical analysis,FC
+Friday,english,probability theory,mathematical analysis
+Saturday,linear algebra,linear algebra,programming
+Cybernetics
+Monday,statistics,statistics,FC,german
+Tuesday,mathematical analysis,english,probability theory
+Wednesday,probability theory,mathematical analysis,philosophy
+Thursday,microeconomics,mathematical analysis,FC,german
+Friday,probability theory,english,philosophy
+Saturday,linear algebra,linear algebra
+Management
+Monday,english,probability theory,FC,higher mathematics,probability theory
+Tuesday,business basics,higher mathematics,microeconomics,AESOP
+Wednesday,microeconomics,fundamental of management,history of culture
+Thursday,english,FC,higher mathematics
+Friday,philosophy,fundamental of sociol.,philosophy,organization theory
+Saturday
+Sociology
+Monday,introduction to stat,probability theory,FC
+Tuesday,english,business basics,higher mathematics,BSL
+Wednesday,microeconomics,KRIDO,higher mathematics,fundamentals of law
+Thursday,probability theory,FC,higher mathematics
+Friday,introduction spec,english,microeconomics,IT in sociology
+Saturday,introduction spec
+Jurisprudence
+Monday,IGIP ZC,FC,BGD
+Tuesday,IT in law,english,conflict theory,theory of the state
+Wednesday,microeconomics,IGIP ZC,microeconomics
+Thursday,english,FC,roman law
+Friday,IT in law,IGIP ZC,IGIP ZC,philosophy,philosophy law
+Saturday,theory of the state,philosophy
