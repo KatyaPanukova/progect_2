@@ -1,6 +1,6 @@
 class Information:
     """The class described information about schedule."""
-    faculty = []
+
     bi = []
     cyb = []
     man = []
@@ -23,7 +23,8 @@ class Information:
 class Business_Informatics(Information):
     """The class describes the schedule students in Business-Informatics."""
 
-    __faculty = 'Economic faculty,Business-Informatics,Cybernetics,Management,Sociology,Jurisprudence'
+    __faculty = 'Economic faculty'.upper()
+    __heading = 'Business-Informatics'.upper()
 
     def __init__(self):
         """Initialization method."""
@@ -39,19 +40,17 @@ class Business_Informatics(Information):
     def __str__(self):
         """String output method."""
 
-        Business_Informatics.__faculty = Business_Informatics.__faculty.split(',')
-
         result = ''
         result += '*************************************************************************************' \
                   '***************************************************************' + '\n'
         result += f'*                                                    SCHEDULE STUDENTS OF ' \
-                  f'{Business_Informatics.__faculty[0].upper()}                                           ' \
+                  f'{Business_Informatics.__faculty}                                           ' \
                   f'              *' + '\n'
         result += '****************************************************************************************' \
                   '************************************************************' + '\n'
         result += f'*                                                           ' \
-                  f' {Business_Informatics.__faculty[1].upper()}                                               ' \
-                  f'                            *' + '\n'
+                  f' {Business_Informatics.__heading}                                               ' \
+                  f'                   *' + '\n'
         result += '***************************************************************************************' \
                   '*************************************************************' + '\n'
         result += f'*         {self.monday_bi[0].upper()}        *        {self.tuesday_bi[0].upper()}       ' \
@@ -87,7 +86,8 @@ class Business_Informatics(Information):
 class Cybernetics:
     """The class describes the schedule students in Cybernetics."""
 
-    __faculty = 'Economic faculty,Business-Informatics,Cybernetics,Management,Sociology,Jurisprudence'
+    __faculty = 'Economic faculty'.upper()
+    __heading = 'Cybernetics'.upper()
 
     def __init__(self):
         """Initialization method."""
@@ -103,18 +103,16 @@ class Cybernetics:
     def __str__(self):
         """String output method."""
 
-        Cybernetics.__faculty = Cybernetics.__faculty.split(',')
-
         result = ''
         result += '*************************************************************************************' \
                   '***************************************************************' + '\n'
         result += f'*                                                    SCHEDULE STUDENTS OF ' \
-                  f'{Cybernetics.__faculty[0].upper()}                                           ' \
+                  f'{Cybernetics.__faculty}                                           ' \
                   f'              *' + '\n'
         result += '****************************************************************************************' \
                   '************************************************************' + '\n'
         result += f'*                                                           ' \
-                  f' {Cybernetics.__faculty[2].upper()}                                               ' \
+                  f' {Cybernetics.__heading}                                               ' \
                   f'                            *' + '\n'
         result += '***************************************************************************************' \
                   '*************************************************************' + '\n'
@@ -150,7 +148,8 @@ class Cybernetics:
 class Management:
     """The class describes the schedule students in Cybernetics."""
 
-    __faculty = 'Economic faculty,Business-Informatics,Cybernetics,Management,Sociology,Jurisprudence'
+    __faculty = 'Economic faculty'.upper()
+    __heading = 'Management'.upper()
 
     def __init__(self):
         """Initialization method."""
@@ -166,18 +165,16 @@ class Management:
     def __str__(self):
         """String output method."""
 
-        Management.__faculty = Management.__faculty.split(',')
-
         result = ''
         result += '*************************************************************************************' \
                   '***************************************************************' + '\n'
         result += f'*                                                    SCHEDULE STUDENTS OF ' \
-                  f'{Management.__faculty[0].upper()}                                           ' \
+                  f'{Management.__faculty}                                           ' \
                   f'              *' + '\n'
         result += '****************************************************************************************' \
                   '************************************************************' + '\n'
         result += f'*                                                            ' \
-                  f'{Management.__faculty[3].upper()}                                                ' \
+                  f'{Management.__heading}                                                ' \
                   f'                            *' + '\n'
         result += '*****************************************************************************************' \
                   '***********************************************************' + '\n'
@@ -217,7 +214,8 @@ class Management:
 class Sociology:
     """The class describes the schedule students in Sociology."""
 
-    __faculty = 'Economic faculty,Business-Informatics,Cybernetics,Management,Sociology,Jurisprudence'
+    __faculty = 'Economic faculty'.upper()
+    __heading = 'Sociology'.upper()
 
     def __init__(self):
         """Initialization method."""
@@ -233,18 +231,16 @@ class Sociology:
     def __str__(self):
         """String output method."""
 
-        Sociology.__faculty = Sociology.__faculty.split(',')
-
         result = ''
         result += '*************************************************************************************' \
                   '***************************************************************' + '\n'
         result += f'*                                                    SCHEDULE STUDENTS OF ' \
-                  f'{Sociology.__faculty[0].upper()}                                           ' \
+                  f'{Sociology.__faculty}                                           ' \
                   f'              *' + '\n'
         result += '****************************************************************************************' \
                   '************************************************************' + '\n'
         result += f'*                                                           ' \
-                  f' {Sociology.__faculty[4].upper()}                                           ' \
+                  f' {Sociology.__heading}                                           ' \
                   f'                                  *' + '\n'
         result += '*************************************************************************************' \
                   '***************************************************************' + '\n'
@@ -282,7 +278,8 @@ class Sociology:
 class Jurisprudence:
     """The class describes the schedule students in Cybernetics."""
 
-    __faculty = 'Economic faculty,Business-Informatics,Cybernetics,Management,Sociology,Jurisprudence'
+    __faculty = 'Economic faculty'.upper()
+    __heading = 'Jurisprudence'.upper()
 
     def __init__(self):
         """Initialization method."""
@@ -298,18 +295,16 @@ class Jurisprudence:
     def __str__(self):
         """String output method."""
 
-        Jurisprudence.__faculty = Jurisprudence.__faculty.split(',')
-
         result = ''
         result += '*************************************************************************************' \
                   '***************************************************************' + '\n'
         result += f'*                                                    SCHEDULE STUDENTS OF ' \
-                  f'{Jurisprudence.__faculty[0].upper()}                                           ' \
+                  f'{Jurisprudence.__faculty}                                           ' \
                   f'              *' + '\n'
         result += '****************************************************************************************' \
                   '************************************************************' + '\n'
         result += f'*                                                          ' \
-                  f'  {Jurisprudence.__faculty[5].upper()}                                                ' \
+                  f'  {Jurisprudence.__heading}                                                ' \
                   f'                         *' + '\n'
         result += '****************************************************************************************' \
                   '************************************************************' + '\n'

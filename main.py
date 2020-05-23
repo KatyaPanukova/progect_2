@@ -5,7 +5,7 @@ Information.write('input.txt')
 
 print(lc.MENU)
 answer = str(input())
-while answer != -1:
+while answer != 6:
     if answer == lc.ONE_0:
         print(Business_Informatics())
     elif answer == lc.ONE_1:
@@ -22,6 +22,5 @@ while answer != -1:
         print(Management())
         print(Sociology())
         print(Jurisprudence())
-    elif answer == -1:
-        print(lc.END)
-        break
+    answer = str(input())
+print(lc.END)
